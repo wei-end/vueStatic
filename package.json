@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -r git@github.com:wei-end/vueStatic.git -b gh-pages"
   },
   "dependencies": {
     "core-js": "^3.8.3",
